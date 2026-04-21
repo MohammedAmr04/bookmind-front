@@ -1,0 +1,38 @@
+{
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Login",
+      "continueWithX": "Continue with X",
+      "noAccount": "Don't have an account?",
+      "registerLink": "Register here",
+      "successTitle": "Success",
+      "successDesc": "Logged in successfully!",
+      "errorTitle": "Error",
+      "errorDesc": "Invalid credentials."
+    },
+    "register": {
+      "title": "Create an account",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Register",
+      "continueWithX": "Continue with X",
+      "hasAccount": "Already have an account?",
+      "loginLink": "Login here",
+      "successTitle": "Success",
+      "successDesc": "Account created successfully!",
+      "errorTitle": "Error",
+      "errorDesc": "Failed to create account."
+    },
+    "errors": {
+      "invalidEmail": "Invalid email address",
+      "passwordTooShort": "Password must be at least 6 characters",
+      "passwordMismatch": "Passwords do not match",
+      "nameRequired": "Name is required"
+    }
+  }
+}
