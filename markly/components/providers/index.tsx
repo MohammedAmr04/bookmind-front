@@ -1,3 +1,4 @@
+import { SidebarProvider } from "../ui/sidebar";
 import NextIntlProvider from "./components/next-intl.provider";
 import ReactQueryProvider from "./components/react-query-provider";
 
@@ -7,8 +8,10 @@ type Props = {
 
 export default function Providers({ children }: Props) {
   return (
-    <NextIntlProvider>
-      <ReactQueryProvider>{children}</ReactQueryProvider>
-    </NextIntlProvider>
+    <SidebarProvider>
+      <NextIntlProvider>
+        <ReactQueryProvider>{children}</ReactQueryProvider>
+      </NextIntlProvider>
+    </SidebarProvider>
   );
 }
